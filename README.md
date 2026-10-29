@@ -6,7 +6,8 @@ I like taking legacy systems that "just work" and making them **secure, observab
 
 ```
 📱 Mobile        React Native · Expo · offline-first sync · GPS/geofencing · camera/QR/NFC · FCM · Play Store / App Store
-🧩 Backend       Node.js · Express · TypeScript · Python · FastAPI · ASP.NET (C# / VB.NET) · REST · WebSockets
+🧩 Backend       Node.js · Express · TypeScript · Python · FastAPI · REST · WebSockets
+🟦 .NET          VB.NET · C# · ASP.NET WebForms · ASP.NET Core · .NET Framework 4.8 / .NET 8 · ADO.NET · IIS
 🗄️ Data          SQL Server · T-SQL · Prisma · Drizzle · SQLite · query tuning · backup/restore · cross-server migrations
 🤖 AI            Local LLMs with Ollama · OCR (Tesseract, PyMuPDF) · grounded generation · document extraction
 🛠️ Ops           IIS · NSSM services · PowerShell automation · Git-based deployments · CI (GitHub Actions, Codemagic)
@@ -33,6 +34,7 @@ These are clean-room portfolio versions of the patterns behind that work. They a
 | [**whatsapp-helpdesk**](https://github.com/JohnDavidV/whatsapp-helpdesk) | Node · Express · Socket.IO · Drizzle · React · Tailwind | Bot menu editor, least-loaded agent routing, queues, business hours, HMAC-verified webhooks, real-time inbox and dashboard. 28 tests. |
 | [**invoice-ai-extractor**](https://github.com/JohnDavidV/invoice-ai-extractor) | Python · FastAPI · Tesseract · Ollama | Rules first, then a *grounded* local LLM. Colombian NIT check-digit validation, OCR fallback, accuracy gate in CI. 41 tests. |
 | [**llm-report-writer**](https://github.com/JohnDavidV/llm-report-writer) | Python · Ollama · ReportLab | Executive PDF reports where the LLM writes and a guard rejects invented numbers, overlong paragraphs and repeated closings. |
+| [**supplier-portal-webforms-vb**](https://github.com/JohnDavidV/supplier-portal-webforms-vb) | VB.NET · ASP.NET WebForms · .NET Framework 4.8 · SQL Server | Supplier portal in VB.NET: parameterized ADO.NET, PBKDF2 with legacy upgrade, CSRF protection, signed certificate links, least-privilege SQL. CI builds on Windows and runs an IIS Express smoke test. 28 tests. |
 | [**aspnet-legacy-auth-migration**](https://github.com/JohnDavidV/aspnet-legacy-auth-migration) | .NET 8 · C# · SQL Server | From plain-text passwords to PBKDF2 with transparent upgrade on login, HMAC-signed expiring links, lockout with backoff. 18 tests. |
 | [**windows-server-ops-toolkit**](https://github.com/JohnDavidV/windows-server-ops-toolkit) | PowerShell · IIS · SQL Server | Versioned zero-downtime IIS releases with auto-rollback, NSSM service updates from Git, resumable migrations, schema diff. Pester tests. |
 
