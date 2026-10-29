@@ -31,6 +31,7 @@ These are clean-room portfolio versions of the patterns behind that work. They a
 | Repository | Stack | Highlights |
 |---|---|---|
 | [**fieldops-offline-mobile**](https://github.com/JohnDavidV/fieldops-offline-mobile) | React Native · Expo · TypeScript | Durable offline outbox (idempotency keys, per-entity ordering, backoff with jitter, crash recovery), single-flight token refresh, accuracy-aware geofencing. 41 tests. |
+| [**node-mssql-api**](https://github.com/JohnDavidV/node-mssql-api) | Node.js · TypeScript · SQL Server · IIS | Mobile-app backend: injection-proof SQL template, migrations, one-open-shift index, refresh-token rotation, cron jobs with a distributed lock, FCM push, email, PDF reports, per-module logs. Integration tests run on a real SQL Server in CI. |
 | [**whatsapp-helpdesk**](https://github.com/JohnDavidV/whatsapp-helpdesk) | Node · Express · Socket.IO · Drizzle · React · Tailwind | Bot menu editor, least-loaded agent routing, queues, business hours, HMAC-verified webhooks, real-time inbox and dashboard. 28 tests. |
 | [**invoice-ai-extractor**](https://github.com/JohnDavidV/invoice-ai-extractor) | Python · FastAPI · Tesseract · Ollama | Rules first, then a *grounded* local LLM. Colombian NIT check-digit validation, OCR fallback, accuracy gate in CI. 41 tests. |
 | [**llm-report-writer**](https://github.com/JohnDavidV/llm-report-writer) | Python · Ollama · ReportLab | Executive PDF reports where the LLM writes and a guard rejects invented numbers, overlong paragraphs and repeated closings. |
