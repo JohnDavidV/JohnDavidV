@@ -39,7 +39,15 @@ These are clean-room portfolio versions of the patterns behind that work. They a
 | [**aspnet-legacy-auth-migration**](https://github.com/JohnDavidV/aspnet-legacy-auth-migration) | .NET 8 · C# · SQL Server | From plain-text passwords to PBKDF2 with transparent upgrade on login, HMAC-signed expiring links, lockout with backoff. 18 tests. |
 | [**windows-server-ops-toolkit**](https://github.com/JohnDavidV/windows-server-ops-toolkit) | PowerShell · IIS · SQL Server | Versioned zero-downtime IIS releases with auto-rollback, NSSM service updates from Git, resumable migrations, schema diff. Pester tests. |
 
+## Academic and earlier projects
+
+| Repository | Stack | What it is |
+| --- | --- | --- |
+| [**MercadoAgentes**](https://github.com/JohnDavidV/MercadoAgentes) | Java · JADE · Swing | Multi-agent marketplace: shops and buyers negotiate with FIPA Contract Net, concurrent negotiations and automatic retries. Built for my Multi-Agent Systems course at UNIR. JUnit tests and CI. |
+| [**front-gestion-deportiva**](https://github.com/JohnDavidV/front-gestion-deportiva) | Vue 3 · Vite · Vuetify | Sports school management UI (coaches, students, classes, schedules, events). Team project, I did the redesign and the forms. |
+| [**person-crud-api-spring-boot**](https://github.com/JohnDavidV/person-crud-api-spring-boot) + [**person-crud-vue**](https://github.com/JohnDavidV/person-crud-vue) | Spring Boot · PostgreSQL · Vue 2 | One of my first full-stack apps (2023): REST API and its frontend, later cleaned up with tests, CI and config through environment variables. |
+
 ## Get in touch
 
-📫 jh.deivy@gmail.com · 💼 [LinkedIn](https://www.linkedin.com/in/your-profile) <!-- TODO: replace with your LinkedIn URL -->
+📫 jh.deivy@gmail.com · 💼 [LinkedIn](https://www.linkedin.com/in/david-v%C3%A1squez-serna-380867259)
 
